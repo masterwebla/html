@@ -1,0 +1,20 @@
+@font-face{
+	font-family: miFuente;
+	src: url(../fuentes/sticker.ttf);
+}
+@font-face{
+	font-family: medieval;
+	src: url(../fuentes/Olondona.otf);
+}
+.titulos{
+	font-family: miFuente;
+	text-shadow: 1px 1px #F1EC43;
+}
+.medieval{
+	font-family: medieval;
+	font-size: 50px;
+}
+#pa2{
+	font-family: Arial;
+	font-style: italic;
+}

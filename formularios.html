@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularios en HTML</title>
+</head>
+<body>
+	<h1>Formularios</h1>
+	<form>
+		Nombres: <input type="text" name="nombres"><br>
+		Email: <input type="email" name="correo"><br>
+		Edad: <input type="number" name="edad" min="18" max="90"><br>
+		Fecha Nacimiento: <input type="date" name="fecha"><br>
+		Hora de nacimiento: <input type="time" name="hora"><br>
+		Género: <input type="radio" name="genero" value="Mujer"> Mujer
+				<input type="radio" name="genero" value="Hombre"> Hombre
+				<input type="radio" name="genero" value="Otros"> Otros <br>
+		Gustos: <input type="checkbox" name="gustos" value="Musica"> Musica
+				<input type="checkbox" name="gustos" value="TV"> TV
+				<input type="checkbox" name="gustos" value="Deportes"> Deportes <br>
+		Carro: <select name="carro">
+					<option>BMW</option>
+					<option>Mercedes</option>
+					<option>Volvo</option>
+				</select><br>
+		Color del Carro: <input type="color" name="colorcarro"><br>
+		Contraseña: <input type="password" name="pass"><br>
+		Hoja de Vida: <input type="file" name="hojavida"><br>
+		Perfil: <textarea name="perfil" cols="30" rows="10"></textarea><br>
+		<input type="submit" value="Guardar Datos">
+	</form>
+</body>
+</html>
